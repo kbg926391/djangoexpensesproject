@@ -1,7 +1,6 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-python == 3.7.7
 asgiref == 3.5.0
 charset-normalizer == 2.0.12
 dj-database-url == 0.5.0

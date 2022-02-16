@@ -17,3 +17,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'expenseswebsite.settings')
 
 application = get_wsgi_application()
 #serve(application, listen='*:8000')
+os.environ["PORT"] = "8000"

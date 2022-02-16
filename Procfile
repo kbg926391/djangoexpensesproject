@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:8000 --port=$PORT --trusted-proxy '*' expenseswebsite.wsgi:application
+web: waitress-serve --listen=*:$PORT  --trusted-proxy '*' expenseswebsite.wsgi:application

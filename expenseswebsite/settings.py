@@ -17,7 +17,7 @@ import django_heroku
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 #BASE_DIR = 'C:/Users/Berlinmission/Desktop/django-income-expense-website/expenseswebsite/'
 
-BASE_DIR = str(Path(__file__).parent.absolute())
+BASE_DIR = str(Path(__file__).parent.parent.absolute())
 
 
 # Quick-start development settings - unsuitable for production

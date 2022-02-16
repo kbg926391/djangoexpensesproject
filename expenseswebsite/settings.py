@@ -15,6 +15,7 @@ import os
 import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+#BASE_DIR = 'C:/Users/Berlinmission/Desktop/django-income-expense-website/expenseswebsite/'
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -131,7 +132,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'expenseswebsite/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'expenseswebsitestatic')
 
 django_heroku.settings(locals())

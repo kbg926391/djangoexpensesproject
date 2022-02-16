@@ -8,7 +8,6 @@ django == 3.2.12
 django-heroku == 0.3.1
 heroku == 0.1.4
 idna == 3.3
-openssl == 1.1.1m
 pip == 21.2.4
 psycopg2 == 2.9.3
 python-dateutil == 1.5

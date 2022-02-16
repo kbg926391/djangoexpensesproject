@@ -6,4 +6,4 @@ from django.views import View
 
 class RegistrationView(View):
     def get(self, request):
-        return render(request,'C:/Users/Berlinmission/Desktop/django-income-expense-website/expenseswebsite/expenseswebsite/templates/authentication/register.html')
+        return render(request,'authentication/register.html')

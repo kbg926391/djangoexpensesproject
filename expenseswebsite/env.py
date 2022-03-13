@@ -1,0 +1,8 @@
+DB_NAME="incomeexpensesdb"
+DB_USER="postgres"
+DB_PASSWORD="password"
+DB_HOST="localhost"
+EMAIL_HOST_PASSWORD="djrhvlqpqqrcyvua"
+EMAIL_HOST_USER="kbg926391@gmail.com"
+DEFAUTL_FROM_EMAIL="kbg926391@gmail.com"
+EMAIL_HOST="smtp.gmail.com"
